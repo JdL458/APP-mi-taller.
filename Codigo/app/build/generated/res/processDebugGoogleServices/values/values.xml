@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">238308277625</string>
+    <string name="google_api_key" translatable="false">AIzaSyDcoQFZl8VGaROtJa57lt2lTBBXaDAilnc</string>
+    <string name="google_app_id" translatable="false">1:238308277625:android:98c4fb15aa3370f74a43a8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDcoQFZl8VGaROtJa57lt2lTBBXaDAilnc</string>
+    <string name="google_storage_bucket" translatable="false">mi-taller-2.firebasestorage.app</string>
+    <string name="project_id" translatable="false">mi-taller-2</string>
+</resources>

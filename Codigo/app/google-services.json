@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238308277625",
+    "project_id": "mi-taller-2",
+    "storage_bucket": "mi-taller-2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238308277625:android:98c4fb15aa3370f74a43a8",
+        "android_client_info": {
+          "package_name": "com.example.mitaller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcoQFZl8VGaROtJa57lt2lTBBXaDAilnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

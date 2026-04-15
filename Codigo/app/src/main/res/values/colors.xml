@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="teal_700">#018786</color>
+    <color name="red_700">#B00020</color>
+
+    <color name="background_dark">#121212</color>
+    <color name="card_dark">#1F1F1F</color>
+    <color name="purple_light">#BB86FC</color>
+    <color name="purple_dark">#6200EE</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="red_dark">#B00020</color>
+    <color name="dark_background">#121212</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="white">#FFFFFF</color>
+
+
+</resources>

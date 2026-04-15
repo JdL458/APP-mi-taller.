@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/tvNombreMaquina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Torno"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Estado -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado de la máquina"
+            android:textSize="16sp"
+            android:textColor="#CCCCCC"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rbFunciona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Funciona"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="32dp"
+                app:buttonTint="#2196F3" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rbNoFunciona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No funciona"
+                android:textColor="#FFFFFF"
+                app:buttonTint="#F44336" />
+        </RadioGroup>
+
+        <!-- Justificativo -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/justificacionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Justificativo (opcional)"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#2196F3"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            android:layout_marginBottom="24dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etJustificativo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#AAAAAA"
+                android:minLines="3" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Botón Guardar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGuardarEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:backgroundTint="#7B1FA2"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,3 +1,4 @@
+// Punto de entrada para Gradle, indica las herramientas que se usaran para crear la app y como esta estructurado.
 pluginManagement {
     repositories {
         google {

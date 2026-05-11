@@ -65,21 +65,21 @@ echo location of your Java installation.
 goto fail
 
 :execute
-@rem Setup the command line
+@rem Configurar la línea de comandos
 
 set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
 
 
-@rem Execute Gradle
+@rem Ejecutar Gradle
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*
 
 :end
-@rem End local scope for the variables with windows NT shell
+@rem Finaliza el ámbito local para las variables con el shell de Windows NT.
 if "%ERRORLEVEL%"=="0" goto mainEnd
 
 :fail
-rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
-rem the _cmd.exe /c_ return code!
+@rem Establezca la variable GRADLE_EXIT_CONSOLE si necesita el código de retorno del script en lugar de
+@rem ¡El código de retorno de _cmd.exe /c_!
 if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
 exit /b 1
 
